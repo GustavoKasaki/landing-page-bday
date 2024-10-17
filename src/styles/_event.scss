@@ -21,9 +21,17 @@
     }
 
     &--image-left {
+        text-align: end;
+        
         .container {
             flex-direction: row-reverse;
         }
+    }
+
+    &__title {
+        font-family: "Sixtyfour Convergence", sans-serif;
+        text-align: center;
+        margin-bottom: 24px;
     }
 
     .container {
@@ -38,8 +46,6 @@
     }
 
     &__details {
-        text-align: justify;
-
         &__title {
             font-size: 18px;
             font-weight: bold;
