@@ -25,12 +25,12 @@ const timeout = setInterval(function() {
     // conversao ms p/ segundos
     const secondsToEvent = Math.floor((remainingTime % minutesInMs) / secondsInMs);
 
-    document.getElementById('timer').innerHTML = `${daysToEvent}d ${hoursToEvent}h ${minutesToEvent}m ${secondsToEvent}s`;
+    document.getElementById('timer').innerHTML = `</br>${daysToEvent}d ${hoursToEvent}h ${minutesToEvent}m ${secondsToEvent}s`;
 
     // caso o evento ja tenha passado
     if (remainingTime < 0) {
         clearInterval(timeout);
-        document.getElementById('timer-text').innerHTML = `O maior evento de tecnologia do Brasil já passou! :( Fique de olho em nossas redes sociais para os próximos eventos.`;
+        document.getElementById('timer-text').innerHTML = `A festa já passou! :(</br>Mas não desanime, a próxima será melhor e você participará!`;
         document.getElementById('infos-bar').style.display = 'none'; //oculta o infos-bar
     }
 
