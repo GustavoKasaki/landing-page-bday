@@ -1,6 +1,6 @@
 AOS.init();
 
-const eventDate = new Date('Dec 12, 2024 19:00:00');
+const eventDate = new Date('Sep 26, 2025 19:00:00');
 const eventTimestamp = eventDate.getTime();
 
 const timeout = setInterval(function() {

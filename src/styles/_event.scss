@@ -1,22 +1,22 @@
 @use 'variables';
 
 .event {
-    padding: 80px 0;
+    padding: 40px 0;
     
-    &--frontend {
+    &--entradas {
         background-image: linear-gradient(variables.$blueLight, variables.$blueDark);
     }
 
-    &--backend {
+    &--principais {
         background-image: linear-gradient(variables.$blueDark, variables.$pink);
     }
 
 
-    &--ux-ui {
+    &--sobremesas {
         background-image: linear-gradient(variables.$pink, variables.$yellow);
     }
 
-    &--data-science {
+    &--bebidas {
         background-image: linear-gradient(variables.$yellow, variables.$pink);
     }
 
@@ -34,6 +34,7 @@
 
     &__image {
         max-width: 360px;
+        box-shadow: rgba($color: red, $alpha: .7) 0 0 24px;
     }
 
     &__details {
